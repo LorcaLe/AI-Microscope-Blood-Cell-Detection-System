@@ -1,0 +1,122 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Dataset
+# =========================
+data/raw/
+data/processed/
+data/interim/
+data/external/
+
+# Keep folder structure if needed
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+!data/external/.gitkeep
+
+# =========================
+# Model weights
+# =========================
+models/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.h5
+*.pkl
+*.joblib
+
+# Keep models folder if needed
+!models/.gitkeep
+
+# =========================
+# YOLO / Ultralytics outputs
+# =========================
+runs/
+wandb/
+mlruns/
+
+# =========================
+# Reports / generated outputs
+# =========================
+reports/figures/
+reports/predictions/
+reports/exports/
+reports/*.pdf
+reports/*.csv
+reports/*.xlsx
+
+# Keep reports folder if needed
+!reports/.gitkeep
+!reports/evaluation_report.md
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Large media files
+# =========================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.gif
+
+# But allow demo gif if you want to show it on GitHub
+!assets/demo.gif
+!screenshots/*.png
+!screenshots/*.jpg
